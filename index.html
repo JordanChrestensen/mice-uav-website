@@ -19,7 +19,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 2px solid #fcce01; /* MTU Gold */
+            border-bottom: 2px solid #fcce01; /* MTU color */
         }
         .header-left {
             display: flex;
@@ -42,7 +42,14 @@
             border-radius: 8px;
             flex: 1;
             min-width: 250px;
+            transition transform 0.3s ease, border-bottom 0.3s ease;
         }
+
+        .card:hover {
+            transform: translateY9-5px);
+            border-bottom: 2px solid #fcce01;
+        }
+        
         .updates-section {
             padding: 20px 10%;
         }
