@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Chrestensen | MICE Enterprise</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #FFCD00; /* MTU Gold */
+        }
+        .hero {
+            padding: 50px 10%;
+            text-align: center;
+        }
+        .grid-container {
+            display: flex;
+            gap: 20px;
+            padding: 20px 10%;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            min-width: 250px;
+        }
+        .updates-section {
+            padding: 20px 10%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h2>Michigan Tech | MICE Enterprise</h2>
+        </div>
+        <div>
+            <!-- Replace with actual MTU logo URL later -->
+            <img src="mtu-logo.png" alt="MTU Logo" height="40">
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1>Jordan Chrestensen</h1>
+        <h3>Autonomous Heavy-Lift UAV for Oil Spill Detection</h3>
+        <p>Developing an autonomous UAV platform utilizing machine learning detection, precision navigation, and a custom sample collection payload.</p>
+    </div>
+
+    <div class="grid-container">
+        <div class="card">
+            <h3>Computer Vision</h3>
+            <p>Powered by an NVIDIA Jetson Orin Nano running YOLOv8/v11 instance segmentation models for real-time oil spill detection.</p>
+        </div>
+        <div class="card">
+            <h3>Flight Control</h3>
+            <p>Utilizing a Pixhawk 6X flight controller with MAVLink over Ethernet and Holybro RTK/GNSS for precision autonomous navigation.</p>
+        </div>
+        <div class="card">
+            <h3>Payload & Hardware</h3>
+            <p>Custom CNC machined components and a 3D-printed water sampling payload integrated with SIYI camera gimbals.</p>
+        </div>
+    </div>
+
+    <div class="updates-section">
+        <h2>Project Updates</h2>
+        <div class="card">
+            <h4>Week 1 - Architecture Finalization</h4>
+            <p>Finalized hardware selection and established the integration plan for the Jetson board and Pixhawk flight controller.</p>
+        </div>
+    </div>
+
+</body>
+</html>
